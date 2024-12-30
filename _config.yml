@@ -4,8 +4,6 @@ title: "" # the name of your site, e.g. ACME Corp.
 
 plugins:
   - jekyll-postcss
-  - jekyll-sitemap
-  - jekyll-seo-tag  
 
 include: ["node_modules/tailwindcss"]
 
