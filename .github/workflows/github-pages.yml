@@ -1,9 +1,6 @@
 # .github/workflows/github-pages.yml
 
-name: ohsostatic
-
-permissions:
-  contents: write
+name: Build and deploy this site to GitHub Pages
 
 on:
   push:
