@@ -1,0 +1,12 @@
+{
+  "name": "reenabanana",
+  "version": "1.0.0",
+  "description": "Followed [this](https://mzrn.sh/2022/04/09/starting-a-blank-jekyll-site-with-tailwind-css-in-2022/) tutorial setup.",
+  "main": "postcss.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
