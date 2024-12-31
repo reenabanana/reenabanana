@@ -7,5 +7,3 @@ plugins:
 
 postcss:
   cache: false
-
-include: ["node_modules/tailwindcss"]
