@@ -15,7 +15,6 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.2
-          bundler-cache: true
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
@@ -25,8 +24,6 @@ jobs:
       - run: npm ci
       - name: Build site
         uses: limjh16/jekyll-action-ts@v2
-        with:
-          enable_cache: true
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
